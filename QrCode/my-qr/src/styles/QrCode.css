@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Aleo","Oswald",sans-serif;
+
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-container h1{
+    color: rgb(130, 6, 246);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 0px;
+    border-bottom: 2px solid #ccc;
+}
+.qr-code-image{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(130, 6, 246);
+}
+input[type="text"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    border: 3px solid rgb(130, 6, 246);
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.generate-button{
+    background-color: rgb(130, 6, 246);
+
+}
+.generate-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.generate-button:hover{
+    background-color: rgb(82, 0, 159);
+}
+.download-button{
+    margin-left: 30px;
+    background-color: green;
+}
+.download-button:hover{
+    background-color: rgb(5, 249, 5);
+}
