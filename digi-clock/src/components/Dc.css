@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'DigitalFont';
+    src: url('./DigitalNumbers-Regular.ttf') format('truetype');
+}
+body{
+    background-color: #a29bfec8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.digiClock{
+    background-color: rgba(240, 248, 255, 0.822);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.digiClock h1{
+    font-size: 35px;
+    color: #3c56e6;
+    font-weight: bolder;
+}
+.digiClock h2{
+    padding: 5px;
+    background-color: black;
+    color: lawngreen;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'DigitalFont', sans-serif;
+}
+.digiClock h2 span{
+    animation: blink 1s infinite;
+}
+.digiClock h3{
+    padding: 5px;
+    background-color: black;
+    color: greenyellow;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'DigitalFont', sans-serif;
+}
+.digiClock h4{
+    padding: 5px;
+    background-color: black;
+    color: #02FE53;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.digiClock b{
+    text-transform: uppercase;
+}
+.digiClock span{
+    color: #55E6C1;
+}
+.b{
+    color: aqua;
+    font-family: 'DigitalFont', sans-serif;
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
