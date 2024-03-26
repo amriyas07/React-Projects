@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #8F708B;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bmi-container{
+    background-color: aliceblue;
+    padding: 20px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.img-container{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    height: 100px;
+    width: 100px;
+}
+.data-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+}
+.data-container h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.error{
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+    color: 15px;
+}
+.inputs-data input{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(238, 216, 187, 0.4);
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputs-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.inputs-btn button{
+    border: 1ps solid #cccccc71;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 450;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-left: 20px;
+    background-color: dodgerblue;
+    transition: background-color 0.3s;
+}
+.inputs-btn button:hover{
+    background-color: rgb(23, 122, 221);
+}
+.inputs-btn button:nth-child(2){
+    background-color: red;
+}
+.inputs-btn button:nth-child(2):hover{
+    background-color: rgba(223, 3, 3, 0.918);
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.result p{
+    padding: 5px;
+}
+.result span{
+    font-weight: bold;
+}
