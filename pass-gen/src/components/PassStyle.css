@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 20px 30px;
+    background-color: azure;
+    border-radius: 15px;
+}
+.container h1{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inputs{
+    margin-bottom: 5px;
+}
+
+.inputs input{
+    margin-top: 8px;
+    width: 100%;
+    outline: none;
+    border: 2px solid #ccc;
+    padding: 5px 7px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.checks-input{
+    padding: 3px;
+    margin: 3px;
+}
+.checks-input label{
+    margin-bottom: 5px;
+}
+.checks-input input{
+    margin-bottom: 5px;
+    
+}
+.gen-btn{
+    outline: none;
+    border: 2px solid gray;
+    background-color: dodgerblue;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.gen-btn:hover{
+    background-color: rgb(0, 128, 255);
+}
+.generatedPass{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.generatedPass input{
+    flex-grow: 1;
+    padding: 3px 6px;
+    font-size: 17px;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.cpy-btn{
+    width: 65px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cpy-btn:hover{
+    background-color: rgb(141, 212, 34);
+}
