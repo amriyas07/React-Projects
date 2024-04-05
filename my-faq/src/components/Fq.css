@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Reddit Mono", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 3%;
+    background-color: #706fd3;
+}
+.faq-app-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.faq-app-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faq-item-container{
+    margin-bottom: 25px;
+    border-radius: 12px;
+    padding: 8px 10px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.faq-item-header{
+    background-color: #f7f7f7;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+.faq-item-header:hover{
+    background-color: #e0e0e0;
+    color: black;
+}
+.faq-item-body{
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    border-radius: 8px;
+}
+.faq-item-body-content{
+    padding: 5px;
+    color: #555;
+}
+.faq-item-container.active .faq-item-body{
+    max-height: 300px;
+}
