@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "questions": "Number of primitive data types in Java are ?",
+        "options" : ["6","7","8","9"],
+        "correctOption":"8"
+    },
+    {
+        "id":2,
+        "questions": "What is the size of float and double in java ?",
+        "options" : ["32 and 64","32 and 32","64 and 64","64 and 32"],
+        "correctOption":"32 and 64"
+    },
+    {
+        "id":3,
+        "questions": "Automatic type conversion is possible in which of the possible cases ?",
+        "options" : ["Byte to int","Int to long","Long to int","Short to int"],
+        "correctOption":"Int to long"
+    }
+]
