@@ -1,0 +1,39 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.cart-products{
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img-container{
+    height: 200px;
+    width: 200px; 
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.cart-product-details{
+    text-align: center;
+}
+.cart-products:hover{
+    border: 3px solid dodgerblue;
+}
+.img-container img:hover{
+    transform: scale(1.1);
+    transition-duration: 4s;
+}
+

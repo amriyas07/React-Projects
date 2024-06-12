@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,"name": "Doorbell Camera","amt":"2340","shop":"Amazon","ftype":"Electronic Gadgets","pic":"https://m.media-amazon.com/images/I/61Q7MwZvUsL._AC_UF1000,1000_QL80_.jpg","latest":"No"
+    },
+    {
+        "id":2,"name": "Electric Guitar","amt":"7250","shop":"Ubuy","ftype":"Music Systems","pic":"https://images-cdn.ubuy.co.in/633aa56646f4e251566aefdb-little-tikes-my-real-jam-electric.jpg","latest":"No"
+    },
+    {
+        "id":3,"name": "Bluetooth Speaker","amt":"3480","shop":"Sony","ftype":"Electronic Gadgets","pic":"https://m.media-amazon.com/images/I/614pmXRPMFL._AC_UF1000,1000_QL80_.jpg","latest":"No"
+    },
+    {
+        "id":4,"name": "Wired Earphones","amt":"1899","shop":"The Audio Store","ftype":"Electronic Gadgets","pic":"https://m.media-amazon.com/images/I/61ijir6ozPL._AC_UF1000,1000_QL80_.jpg","latest":"No"
+    },
+    {
+        "id":5,"name": "iPod Shuffle","amt":"510","shop":"Apple","ftype":"Electronic Gadgets","pic":"https://m.media-amazon.com/images/I/51lNHSpAHmL.jpg","latest":"No"
+    },
+    {
+        "id":6,"name": "Hard Drives","amt":"3999","shop":"Sandisk","ftype":"Storage Devices","pic":"https://media.wired.com/photos/6206afe3c14aa6d334a5d879/master/w_1280%2Cc_limit/Gear-SanDisk-Portable-Hard-Drive.jpg","latest":"No"
+    },
+    {
+        "id":7,"name": "Bluetooth Headset","amt":"2990","shop":"HP","ftype":"Electronic Gadgets","pic":"https://m.media-amazon.com/images/I/41O1VpSa+xL._AC_UF1000,1000_QL80_.jpg","latest":"No"
+    },
+    {
+        "id":8,"name": "Canon Camera","amt":"39995","shop":"Canon","ftype":"Electronic Gadgets","pic":"https://m.media-amazon.com/images/I/81LskAU5h1L._AC_UF1000,1000_QL80_.jpg","latest":"No"
+    }
+
+]
